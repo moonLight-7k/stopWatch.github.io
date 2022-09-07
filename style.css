@@ -1,0 +1,46 @@
+body {
+  background-color: black;
+}
+.time {
+  background-color: rgb(27, 26, 26);
+  border: 2px solid white;
+  border-radius: 9px;
+}
+#time-display {
+  font-size: 100px;
+  color: greenyellow;
+
+  text-align: center;
+}
+.btn {
+  padding: 1rem;
+  text-align: center;
+}
+.timerBtn:hover {
+  background-color: white;
+  color: black;
+}
+.timerBtn {
+  width: 80px;
+  height: 30px;
+  border: 2px solid;
+  border-radius: 7px;
+  background-color: #333333;
+  color: white;
+  cursor: pointer;
+  font-family: consolas, monospace;
+}
+#time-container {
+  border: 1px solid white;
+  padding: 2rem;
+  background-color: rgb(34, 32, 32);
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 580px) {
+  #time-display {
+    font-size: 70px;
+    color: greenyellow;
+    text-align: center;
+  }
+}
